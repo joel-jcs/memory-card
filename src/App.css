@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pageContents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pageContents h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.pageContents header {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageContents header span {
+  font-size: 1.5rem;
+}
+
+.gameboard {
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 20px 40px;
+  gap: 10px 40px;
+}
+
+.card {
+  /* width: 100px; */
+  height: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
